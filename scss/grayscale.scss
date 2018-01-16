@@ -142,6 +142,7 @@ a {
   color: white;
   background: url("../img/laptop.jpeg") no-repeat bottom center scroll;
   background-color: black;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -169,6 +170,17 @@ a {
       }
     }
   }
+}
+
+.masthead .blackBox {
+  background: rgba(0, 0, 0, 0.6);
+  height: 50vh;
+  width: 60%;
+  margin: auto;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-circle {
@@ -298,4 +310,24 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: fade-out(white, 0.8);
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-col {
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#aja-avatar {
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }

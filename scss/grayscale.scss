@@ -140,7 +140,7 @@ a {
   text-align: center;
 
   color: white;
-  background: url("../img/laptop.jpeg") no-repeat bottom center scroll;
+  background: url("../img/ocean.jpeg") no-repeat bottom center scroll;
   background-color: black;
 
   -webkit-background-size: cover;
@@ -311,23 +311,19 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: fade-out(white, 0.8);
 }
-
 .about-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-.about-col {
-  width: 50%;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+#white-divider {
+  border: solid 1px white;
+  width: 80%;
 }
-
 #aja-avatar {
   height: 100%;
   width: 100%;
   margin: auto;
+  border-radius: 3px;
 }

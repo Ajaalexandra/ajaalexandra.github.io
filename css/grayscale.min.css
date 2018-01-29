@@ -188,8 +188,8 @@ a:hover {
 } */
 .download-section {
   color: #fff;
-  background: url(../img/tan1.png) no-repeat center center scroll;
-  background-color: #000;
+  /* background: url(../img/tan1.png) no-repeat center center scroll; */
+  background-color: #afbac1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -212,16 +212,16 @@ a:hover {
   border-radius: 0;
 }
 .btn-default {
-  color: #53b9c7;
-  border: 1px solid #53b9c7;
+  color: white;
+  border: 1px solid white;
   background-color: transparent;
 }
 .btn-default:focus,
 .btn-default:hover {
   color: #000;
-  border: 1px solid #53b9c7;
+  border: 1px solid white;
   outline: 0;
-  background-color: #53b9c7;
+  background-color: white;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -279,10 +279,11 @@ body {
   width: 80%;
 }
 #aja-avatar {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   margin: auto;
   border-radius: 3px;
+  padding-top: 75px;
 }
 
 .brand-heading-style {
@@ -306,9 +307,12 @@ body {
 }
 
 #aboutme,
-#myskills,
-#portfolio {
+#myskills {
   color: #53b9c7;
+}
+
+#portfolio {
+  color: white;
 }
 
 /* <! -- portfolio section--> */
@@ -323,6 +327,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 175px;
 }
 .projects-left {
   height: 80vh;
@@ -357,4 +362,15 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.contact-content-section {
+  background-color: #53b9c7;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.footer-container {
+  background-color: #53b9c7;
+  height: 20px;
 }

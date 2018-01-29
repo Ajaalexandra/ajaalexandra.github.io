@@ -102,7 +102,7 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: #000;
+    background: #53b9c7;
   }
   #mainNav .nav-link.active {
     outline: 0;
@@ -119,7 +119,7 @@ a:hover {
   padding: 200px 0;
   text-align: center;
   color: #fff;
-  background: url("../img/laptop.jpeg") no-repeat bottom center scroll;
+  background: url("../img/hands.jpeg") no-repeat bottom center scroll;
 
   background-color: #000;
   -webkit-background-size: cover;
@@ -128,7 +128,7 @@ a:hover {
   background-size: cover;
 }
 
-.masthead .blackBox {
+/* .masthead .blackBox {
   background: rgba(0, 0, 0, 0.6);
   height: 50vh;
   width: 70%;
@@ -138,7 +138,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   border-radius: 3px;
-}
+} */
 
 .masthead .intro-body {
   display: table-cell;
@@ -182,30 +182,24 @@ a:hover {
   outline: 0;
   background: rgba(255, 255, 255, 0.1);
 }
-.content-section {
+/* .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-}
+} */
 .download-section {
   color: #fff;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/tan1.png) no-repeat center center scroll;
   background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#map {
-  width: 100%;
-  height: 300px;
-}
+
 @media (min-width: 992px) {
   .content-section {
     padding-top: 200px;
     padding-bottom: 200px;
-  }
-  #map {
-    height: 350px;
   }
 }
 .btn {
@@ -218,16 +212,16 @@ a:hover {
   border-radius: 0;
 }
 .btn-default {
-  color: #42dca3;
-  border: 1px solid #42dca3;
+  color: #53b9c7;
+  border: 1px solid #53b9c7;
   background-color: transparent;
 }
 .btn-default:focus,
 .btn-default:hover {
   color: #000;
-  border: 1px solid #42dca3;
+  border: 1px solid #53b9c7;
   outline: 0;
-  background-color: #42dca3;
+  background-color: #53b9c7;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -280,16 +274,87 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.about-col {
-  width: 50%;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+#white-divider {
+  border: solid 1px #53b9c7;
+  width: 80%;
 }
-
 #aja-avatar {
   height: 100%;
   width: 100%;
   margin: auto;
+  border-radius: 3px;
+}
+
+.brand-heading-style {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 75px;
+  font-style: italic;
+  color: #53b9c7;
+}
+
+/* .content-section {
+  background-color: #53b9c7;
+} */
+
+.about-content-section {
+  background-image: url("../img/sea.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#aboutme,
+#myskills,
+#portfolio {
+  color: #53b9c7;
+}
+
+/* <! -- portfolio section--> */
+
+#projects {
+  padding-top: 65px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.projects-left {
+  height: 80vh;
+  background-image: url("../img/fittr.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.projects-right {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0);
+  z-index: 10;
+}
+.projects-right-upper {
+  height: 50%;
+  width: 100%;
+  background-image: url("../img/wheelies.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projects-right-lower {
+  width: 100%;
+  height: 50%;
+  background-image: url("../img/winery-finder.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

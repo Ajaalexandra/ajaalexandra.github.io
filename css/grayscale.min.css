@@ -176,8 +176,8 @@ a:hover {
 }
 .download-section {
   color: #fff;
-  background: url(../img/photo.jpeg) no-repeat center center scroll;
-  background-color: #000;
+  /* background: url(../img/photo.jpeg) no-repeat center center scroll; */
+  background-color: #c6c2be;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

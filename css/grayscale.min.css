@@ -1,12 +1,5 @@
-/*!
- * Start Bootstrap - Grayscale v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
-
 body {
-  /* font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Open Sans", sans-serif;
+  font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
@@ -23,8 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Open Sans", sans-serif;
+  font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
@@ -54,8 +46,7 @@ a:hover {
   color: #1d9b6c;
 }
 #mainNav {
-  /* font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Open Sans", sans-serif;
+  font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -124,41 +115,22 @@ a:hover {
   text-align: center;
   color: #fff;
   background: url("../img/hands.jpeg") no-repeat bottom center scroll;
-
   background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-/* .masthead .blackBox {
-  background: rgba(0, 0, 0, 0.6);
-  height: 50vh;
-  width: 70%;
-  margin: auto;
-  z-index: 20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3px;
-} */
-
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
-  /* display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-top: 17%; */
-  padding-left: 100px;
-  padding-bottom: 100px;
 }
 .masthead .intro-body .brand-heading {
   font-size: 50px;
 }
 .masthead .intro-body .intro-text {
   font-size: 18px;
+  font-family: "Open Sans";
 }
 @media (min-width: 768px) {
   .masthead {
@@ -192,20 +164,119 @@ a:hover {
   outline: 0;
   background: rgba(255, 255, 255, 0.1);
 }
-/* .content-section {
+.brand-heading-style {
+  font-family: "Cormorant Infant", serif;
+  font-size: 95px;
+  font-weight: 20;
+  color: #16b2ce;
+}
+.content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-} */
+}
 .download-section {
   color: #fff;
-  /* background: url(../img/tan1.png) no-repeat center center scroll; */
-  background-color: #afbac1;
+  background: url(../img/photo.jpeg) no-repeat center center scroll;
+  background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
+.about-section {
+  background-image: url("../img/sea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#aja-avatar {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+#aboutme,
+#myskills {
+  color: #53b9c7;
+  margin-bottom: 0;
+}
+#white-divider {
+  border: solid 1px #53b9c7;
+  width: 80%;
+}
+/* <! -- portfolio section--> */
+#projects {
+  padding-top: 65px;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 175px;
+}
+.projects-left {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  background-image: url("../img/fittr.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.projects-right {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0);
+  z-index: 10;
+}
+.projects-right-upper {
+  height: 50%;
+  width: 100%;
+  background-image: url("../img/wheelies.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projects-right-lower {
+  height: 50%;
+  width: 100%;
+  background-image: url("../img/winery-finder.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hidden {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  padding-top: 30%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.hidden:hover {
+  transition: all ease 0.3s;
+  opacity: 1;
+}
+.portfolio-content {
+  padding-bottom: 15%;
+}
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact {
+  background: #53b9c7;
+}
+.footer-container {
+  background: #53b9c7;
+}
 @media (min-width: 992px) {
   .content-section {
     padding-top: 200px;
@@ -213,8 +284,7 @@ a:hover {
   }
 }
 .btn {
-  /* font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Open Sans", sans-serif;
+  font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -244,6 +314,29 @@ ul.banner-social-buttons {
   }
 }
 @media (max-width: 767px) {
+  .masthead .intro-body .brand-heading {
+    font-size: 50px;
+  }
+  .masthead .intro-body .intro-text {
+    font-size: 18px;
+  }
+  #aja-avatar {
+    top: 0;
+  }
+  #aboutme,
+  #myskills {
+    font-size: 14px;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .projects-left {
+    height: 40%;
+  }
+  .projects-right-upper,
+  .projects-right-lower {
+    height: 40%;
+  }
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
@@ -275,134 +368,4 @@ img::selection {
 }
 img::-moz-selection {
   background: 0 0;
-}
-body {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-}
-
-.about-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-#white-divider {
-  border: solid 1px #53b9c7;
-  width: 80%;
-}
-#aja-avatar {
-  height: 87%;
-  width: 100%;
-  margin: auto;
-  border-radius: 3px;
-  padding-top: 75px;
-}
-
-.brand-heading-style {
-  font-family: "Cormorant Infant", serif;
-  font-size: 95px;
-  font-weight: 20;
-  /* font-style: italic; */
-  color: #16b2ce;
-}
-
-/* .content-section {
-  background-color: #53b9c7;
-} */
-
-.about-content-section {
-  background-image: url("../img/sea.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 87vh;
-  padding-top: 3%;
-  /* padding-bottom: 200px; */
-}
-
-#aboutme,
-#myskills {
-  color: #53b9c7;
-}
-
-#portfolio {
-  color: white;
-}
-
-/* <! -- portfolio section--> */
-
-#projects {
-  padding-top: 65px;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 175px;
-}
-.projects-left {
-  height: 80vh;
-  background-image: url("../img/fittr.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 10;
-}
-.projects-right {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background: rgba(255, 255, 255, 0);
-  z-index: 10;
-}
-.projects-right-upper {
-  height: 50%;
-  width: 100%;
-  background-image: url("../img/wheelies.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.projects-right-lower {
-  width: 100%;
-  height: 50%;
-  background-image: url("../img/winery-finder.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hidden {
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  padding-top: 30%;
-  /* display: flex;
-  justify-content: center;
-  align-content: center; */
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.hidden:hover {
-  transition: all ease 0.3s;
-  opacity: 1;
-}
-
-/* <! -- contact section--> */
-
-.contact-content-section {
-  background-color: #53b9c7;
-  height: 200px;
-  padding-top: 100px;
-}
-
-.footer-container {
-  background-color: #53b9c7;
-  height: 20px;
 }

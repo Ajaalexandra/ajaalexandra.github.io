@@ -216,6 +216,7 @@ a:hover {
 }
 .icon-title {
   color: grey;
+  font-family: "Open Sans";
 }
 
 /* <! -- portfolio section--> */
@@ -284,6 +285,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20%;
 }
 #contact {
   background: #53b9c7;

@@ -206,23 +206,18 @@ a:hover {
 }
 
 .tech-container {
-  width: 50%;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 0px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
-  /* align-content: space-between; */
 }
-#tech {
-  background: #e0dbd0;
-  color: #53b9c7;
-  border-radius: 3px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  padding: 2px;
+.icon {
+  height: 100px;
+  width: 100px;
 }
+.icon-title {
+  color: grey;
+}
+
 /* <! -- portfolio section--> */
 #projects {
   padding-top: 65px;

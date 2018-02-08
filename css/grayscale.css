@@ -1,4 +1,6 @@
-<!-- top -- > body {
+/* <!-- beginning -- >  */
+
+body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
@@ -107,6 +109,9 @@ a:hover {
     color: white;
   }
 }
+
+/* <!-- end nav --> */
+
 .masthead {
   display: table;
   width: 100%;
